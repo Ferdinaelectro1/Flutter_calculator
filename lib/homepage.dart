@@ -59,7 +59,7 @@ class HomePageState extends State<HomePage>
             height: 100,
             alignment: Alignment.centerRight,
             padding: EdgeInsets.all(10.0),
-            child: Text(printValue,style: TextStyle(fontSize: 40),),
+            child: Text(printValue,style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold),),
           ),
           //Spacer(),
           Expanded(
