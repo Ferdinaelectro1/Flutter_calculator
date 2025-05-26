@@ -23,10 +23,17 @@ class InfoPageState extends State<InfoPage>
         child: ListView(
           children: [
             ListTile(
-             title: Text("Augmenter le volume"),
+             title: Text("Calculatrice Flutter"),
              tileColor: Colors.redAccent, 
-             trailing: Icon(Icons.volume_up),
-            )
+            ),
+            ListTile(
+              title: Text("Version 1.0.0"),
+              tileColor: Colors.redAccent,
+            ),  
+            ListTile(
+             title: Text("Développé par ATI Tchaa-sousso Ferdinand"),
+             tileColor: Colors.redAccent, 
+            ),
           ],
         ),
       ),

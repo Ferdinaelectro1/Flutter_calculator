@@ -80,7 +80,7 @@ class HomePageState extends State<HomePage>
                       onPressed: (){
                         setState(() {
                           String saisi = getbutton(index);
-                          if(saisi == "cls")//si c'est le boutton cls efface l'ecran
+                          if(saisi == "cl")//si c'est le boutton cls efface l'ecran
                           {
                             printValue = "";
                           }
